@@ -3,10 +3,12 @@ package ExamenParcial.MsSecurity_P.servicios;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import ExamenParcial.MsSecurity_P.model.AlumnoModel;
 import ExamenParcial.MsSecurity_P.repository.IAlumnoRepository;
 
+@Service
 public class AlumnoService implements IAlumnoService{
     @Autowired
     IAlumnoRepository repository;
