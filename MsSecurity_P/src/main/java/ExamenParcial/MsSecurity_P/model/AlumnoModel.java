@@ -17,7 +17,7 @@ import lombok.Setter;
 @Table(name="alumno")
 public class AlumnoModel {
     @Id
-    @Column(name="idAlumno")
+    @Column(name="id_alumno")
     public Integer idAlumno;
 
     @Column(name="nombre")
