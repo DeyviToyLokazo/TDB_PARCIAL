@@ -12,8 +12,8 @@ import ExamenParcial.MsSecurity_P.repository.IAlumnoRepository;
 public class AlumnoService implements IAlumnoService{
     @Autowired
     IAlumnoRepository repository;
+    
     @Override
-
     public List<AlumnoModel> findAll() {
         return (List<AlumnoModel>)repository.findAll();
     }
