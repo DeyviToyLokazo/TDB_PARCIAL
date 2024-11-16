@@ -13,7 +13,7 @@ import ExamenParcial.MsSecurity_P.model.AlumnoModel;
 import ExamenParcial.MsSecurity_P.servicios.AlumnoService;
 
 @RestController
-@RequestMapping("alumno")
+@RequestMapping("/alumno")
 public class AlumnoController {
     @Autowired
     AlumnoService alumnoService;
@@ -29,6 +29,6 @@ public class AlumnoController {
         return alumnoService.add(model);
     }
 
-    
+
 
 }
